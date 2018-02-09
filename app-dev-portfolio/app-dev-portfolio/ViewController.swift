@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        devLogo.layer.cornerRadius = 0.5;
+        devLogo.layer.cornerRadius = CGFloat(0.5)
         
     }
 
